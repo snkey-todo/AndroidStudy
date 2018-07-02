@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.hxsl.contactsdemo.widget.CircularImage
+            android:id="@+id/img_header"
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/blank_space_small"
+            android:layout_marginLeft="@dimen/blank_space_small"
+            android:layout_marginTop="@dimen/blank_space_small"
+            android:layout_marginRight="@dimen/blank_space_small"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@null" />
+
+        <TextView
+            android:id="@+id/tv_contactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_header"
+            android:layout_toLeftOf="@+id/chk_contactSelector"
+            android:text="张山峰"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_normal_16" />
+        
+        <ImageView
+            android:id="@+id/chk_contactSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/blank_space_normal"
+            android:layout_marginRight="@dimen/blank_space_normal_20"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ico_checkbox_selector" />
+    </RelativeLayout>
+
+</LinearLayout>

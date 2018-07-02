@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toast_bg_shape"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/blank_space_small"
+    android:paddingLeft="@dimen/blank_space_small"
+    android:paddingRight="@dimen/blank_space_small"
+    android:paddingTop="@dimen/blank_space_small" >
+
+    <ImageView
+        android:id="@+id/img_dialogIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_dialogTitle"
+        style="@style/ToastDialogTitleTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/blank_space_normal" />
+
+    <TextView
+        android:id="@+id/tv_dialogMsg"
+        style="@style/ToastDialogMsgTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/blank_space_normal" />
+
+</LinearLayout>

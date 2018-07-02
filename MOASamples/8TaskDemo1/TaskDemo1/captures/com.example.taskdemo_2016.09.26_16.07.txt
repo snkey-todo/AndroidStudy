@@ -1,0 +1,39 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        41f2ffd0 com.example.taskdemo/.LoginActivity filter 41f14868
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Key Set Manager:
+  [com.example.taskdemo]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.example.taskdemo] (42500a08):
+    userId=10106 gids=[3003, 1028, 1015]
+    pkg=Package{42591040 com.example.taskdemo}
+    codePath=/data/app/com.example.taskdemo-1.apk
+    resourcePath=/data/app/com.example.taskdemo-1.apk
+    nativeLibraryPath=/data/app-lib/com.example.taskdemo-1
+    versionCode=1 targetSdk=19
+    versionName=1.0
+    applicationInfo=ApplicationInfo{42586720 com.example.taskdemo}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    mtkFlags=[ ]
+    dataDir=/data/data/com.example.taskdemo
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2016-09-23 15:35:33
+    firstInstallTime=2016-09-23 15:35:33
+    lastUpdateTime=2016-09-23 15:35:33
+    signatures=PackageSignatures{41d2d1d0 [41c2b598]}
+    permissionsFixed=true haveGids=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    User 0:  installed=true blocked=false stopped=false notLaunched=false enabled=0
+    grantedPermissions:
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WAKE_LOCK
+      android.permission.INTERNET

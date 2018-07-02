@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.hxsj.noticedemo.widget.NoScroolGridView
+        android:id="@+id/attach_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/blank_space_small"
+        android:horizontalSpacing="@dimen/blank_space_small"
+        android:numColumns="5"
+        android:scrollbars="none"
+        android:verticalSpacing="@dimen/blank_space_small" >
+    </com.hxsj.noticedemo.widget.NoScroolGridView>
+
+    <com.hxsj.noticedemo.widget.NoScroolListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/blank_space_small"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="4dp" >
+    </com.hxsj.noticedemo.widget.NoScroolListView>
+
+</LinearLayout>

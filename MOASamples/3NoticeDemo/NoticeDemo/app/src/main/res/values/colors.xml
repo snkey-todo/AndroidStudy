@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 默认底色#FFFFFF -->
+    <color name="default_color">#ffffff</color>
+    <!-- 次要背景颜色 -->
+    <color name="minor_bg_color">#f5f5f5</color>
+    <!-- 背景浅蓝色 -->
+    <color name="light_blue">#EDF1F9</color>
+
+    <!-- 默认字体颜色(深灰色） -->
+    <color name="dark_gray">#333333</color>
+    <!-- 次要字体颜色(灰色) -->
+    <color name="gray">#666666</color>
+    <!-- 提示字体颜色 (浅灰色) -->
+    <color name="light_gray_1">#999999</color>
+    <!-- 提示字体颜色 (浅灰色) -->
+    <color name="light_gray">#bcbcbc</color>
+    <!-- 提示字体颜色 (浅灰色) -->
+    <color name="light_gray_2">#8b8b8b</color>
+    <color name="title_bg">#28b5ef</color>
+    <color name="home_title_bg">#2c2a41</color>
+    <color name="home_text_color">#3498db</color>
+    <color name="main_line_color">#d8d8d8</color>
+    <color name="me_item_color">#636363</color>
+
+    <!-- 蓝色 -->
+    <color name="blue">#3498db</color>
+    <color name="blue_dark_1">#317AB7</color>
+    <!-- 橙色 -->
+    <color name="orange">#ff4e00</color>
+
+    <!-- 橘色按钮释放颜色 -->
+    <color name="orange_button_release_color">#ffbc30</color>
+    <color name="orange_button_press_color">#ccffb51a</color>
+
+    <!-- 蓝色按钮释放颜色 -->
+    <color name="blue_button_release_color">#3498db</color>
+    <color name="blue_button_press_color">#cc2466d9</color>
+    <color name="blue_button_no_radius_press_color">#17a2d7</color>
+
+    <!-- 红色按钮颜色 -->
+    <color name="red_button_release_color">#fc7b65</color>
+    <color name="red_button_press_color">#f56c55</color>
+
+    <!-- 红色支付按钮颜色 -->
+    <color name="red_pay_button_release_color">#fc5454</color>
+    <color name="red_pay_button_press_color">#FC4C4C</color>
+
+    <!-- 按钮不可点击颜色 -->
+    <color name="button_disable_color">#cccccc</color>
+    <color name="gray_button_release_color">#cccccc</color>
+    <color name="gray_button_press_color">#bfbfbf</color>
+
+    <!-- layout按下背景 -->
+    <color name="layout_click_bg_color">#f5f5f5</color>
+
+    <!-- 线条颜色 #d6d6d6 -->
+    <color name="line_color">#d6d6d6</color>
+    <color name="line_color1">#bfbfbf</color>
+    <color name="select_date_and_time_press_bg_color">#eef5ff</color>
+
+    <!-- 标题字体颜色 #FCFFFE -->
+    <color name="title_text_color">#000000</color>
+
+    <!-- Toast背景颜色 -->
+    <color name="toast_bg_color">#8a000000</color>
+    
+    <!-- 浅灰色背景 -->
+    <color name="light_gray_bg">#E8E8E8</color>
+    
+    <!-- 审批详情同意、不同意、取消等的色值 -->
+    <color name="button_agree">#72B566</color>
+    <color name="button_disagree">#CE513F</color>
+    <color name="button_next_approver">#F2A648</color>
+
+    <!-- 商家详情半透明颜色 -->
+    <color name="shop_detail_translucent_color">#af000000</color>
+    <color name="list_item_select_type_release">#f8f8f8</color>
+    <color name="list_item_select_type_press">#f5f8ff</color>
+    <color name="brand_car_bg">#ecf4fb</color>
+    <color name="bg_translucent">#e0000000</color>
+    <color name="home_bg">#eff4f8</color>
+    <color name="normal_bg">#F0F0F0</color>
+    <color name="home_grab_deals_text_color">#fc7b65</color>
+    <color name="red">#fc4a4a</color>
+    <color name="popup_main_background">#50000000</color>
+    <color name="black">#000000</color>
+    <color name="choose_eara_item_press_color">#f3f3f3</color>
+    <color name="white">#ffffff</color>
+    <color name="no_color">#00000000</color>
+    <color name="color_666">#666666</color>
+    <color name="color_333">#333333</color>
+    <color name="color_999">#999999</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="color_bfbfbf">#bfbfbf</color>
+    <color name="color_3c">#3c3c3c</color>
+    <color name="color_8e">#8e8e8e</color>
+    <color name="color_fd5b59">#fd5b59</color>
+    <color name="orange1">#ff9900</color>
+    <color name="menu_section_header">#FFDDDDDD</color>
+    <color name="header_normal">#00000000</color>
+    <color name="header_pressed">#ffffffff</color>
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="common_bottom_bar_normal_bg">#5ab7c8</color>
+    <color name="common_bottom_bar_selected_bg">#ffffff</color>
+    <color name="item_task_normal_bg">#89c7c8</color>
+    <color name="item_shenpi_normal_bg">#29a4c5</color>
+    <color name="item_meeting_normal_bg">#d6df8b</color>
+    <color name="item_notes_normal_bg">#a3c874</color>
+    <!-- zdy -->
+    <color name="mysign_time_loacation">#0000ee</color>
+    <color name="my_setting_line">#F2F2F2</color>
+    <color name="grey">#5f5f5f</color>
+    <color name="white1">#f7f7f7</color>
+    <color name="study_item_backgroud">#f2f2f2</color>
+    <color name="reserve_color">#d96830</color>
+    <color name="half_transparent">#b3212121</color>
+    <color name="yellow">#ff6666</color>
+    <color name="title_bg1">#955ab7c8</color>
+    <color name="bottom_input_backgroud">#0493aa</color>
+    <color name="bottom_input_edittext">#f2f2f2</color>
+
+    <drawable name="drawale_ccc">#cccccc</drawable>
+    <drawable name="list_bg">#F2F5F5</drawable>
+
+    <color name="mycourse_item_line">#d9d9d9</color>
+    <color name="plan_edit_item_content">#b1b1b1</color>
+    <color name="login_user_img">#f6f6f6</color>
+    <color name="signatrue_setting_line">#bebbbb</color>
+
+    <drawable name="popmenu_bg">#5ab7c8</drawable>
+
+    <color name="separate_line_color">#c6c6c6</color>
+    <color name="cource_pressed_text_backgroud">#1eaed3</color>
+    <color name="separate_line_color1">#e5e5e5</color>
+    <color name="learnplan_item_clicked">#33f18d00</color>
+    <color name="courcedetail_radio_checked">#4c1eaed3</color>
+    <color name="onlive_item_clicked">#331eaed3</color>
+    <color name="onlive_name">#313131</color>
+    <color name="onlive_seperate_line">#d3d3d3</color>
+    <color name="reserve_button_clicked">#4c111111</color>
+    <color name="light_gray_3">#ff999999</color>
+    <color name="create_time_color">#1e485f</color>
+    <color name="item_task_clicked">#cc1eaed3</color>
+    <color name="task_detail_operate">#ccbccecf</color>
+    <color name="sign_buttom_normal">#cc3333</color>
+    <color name="sign_buttom_pressed">#66999999</color>
+    <color name="single_chat_title">#efefef</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="gray_form_bg">#dedede</color>
+    <color name="gray_line_bg">#808080</color>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hxsj.noticedemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/public_title"
+     />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/et_newnotice_tittle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/blank_space_least"
+                android:layout_marginLeft="@dimen/blank_space_small"
+                android:layout_marginRight="@dimen/blank_space_small"
+                android:layout_marginTop="@dimen/blank_space_small"
+                android:background="@color/home_bg"
+                android:ems="10"
+                android:hint="通知标题"
+                android:inputType="text"
+                android:padding="@dimen/blank_space_small"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_normal" />
+
+            <EditText
+                android:id="@+id/et_newnotice_content"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/blank_space_small"
+                android:layout_marginRight="@dimen/blank_space_small"
+                android:layout_marginTop="@dimen/blank_space_least"
+                android:background="@color/home_bg"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="通知内容"
+                android:minHeight="100dp"
+                android:minLines="2"
+                android:padding="@dimen/blank_space_least"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_weight="1" />
+
+            <com.hxsj.noticedemo.widget.NoScroolGridView
+                android:id="@+id/notice_grid_picture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/blank_space_small"
+                android:horizontalSpacing="@dimen/blank_space_small"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:verticalSpacing="@dimen/blank_space_small" >
+            </com.hxsj.noticedemo.widget.NoScroolGridView>
+
+
+
+            <TextView
+                android:id="@+id/tv_newnotice_executor"
+                style="@style/text_size_normal_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/home_bg"
+                android:drawableLeft="@drawable/addresslist_nobg"
+                android:drawablePadding="@dimen/blank_space_small_3"
+                android:drawableRight="@drawable/icon_right"
+                android:padding="@dimen/blank_space_small"
+                android:text="收件人"
+                android:textColor="@drawable/sendto_click_selector"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.hxsj.noticedemo.widget.tagview.TagCloudLinkView
+                android:id="@+id/layout_notice_executor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:minHeight="40dp"
+                android:padding="@dimen/blank_space_small_3"
+                android:paddingLeft="50dp"
+                android:paddingRight="150dp"
+                app:deletableTextColor="#ff9acd32"
+                app:deletableTextSize="5sp"
+                app:isDeletable="true"
+                app:tagLayoutColor="#ffff0000"
+                app:tagTextColor="#ff9acd32"
+                app:tagTextSize="4sp" />
+
+            <ImageView
+                android:id="@+id/tv_noticecallback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/blank_space_small"
+                android:scaleType="centerCrop"
+                android:src="@drawable/notice_no_reply" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

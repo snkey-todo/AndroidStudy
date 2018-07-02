@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">登录接口测试</string>
+     <!-- 下拉刷新 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/xlistview_header_hint_normal</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/xlistview_footer_hint_ready</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/xlistview_header_hint_loading</string>
+    <string name="add_message">发起消息</string>
+    <string name="add_group_message">发起群聊</string>
+
+    <!-- zdy -->
+    <string name="approval">审批</string>
+    <string name="new_approval">新建审批</string>
+    <string name="edit_approval_list">编辑审批列表</string>
+    <string name="approval_note">个人，所属部门，抄送给我的所有内容</string>
+    <string name="share">分享</string>
+    <string name="live">直播</string>
+    <string name="introduction">简介</string>
+    <string name="data">资料</string>
+    <string name="catalogue">目录</string>
+    <string name="immediate_reservation">立即预定</string>
+    <string name="speaker">主讲人：</string>
+    <string name="course_start_time">开课时间：</string>
+    <string name="launch_meeting">发起会议</string>
+    <string name="setting">设置</string>
+    <string name="network_setting">网络设置</string>
+    <string name="pust_setting">推送设置</string>
+    <string name="about_smarteducation">关于点点智汇</string>
+    <string name="feedback">意见反馈</string>
+    <string name="myDocument">我的文件</string>
+    <string name="contacts">通讯录</string>
+    <string name="sign">签到</string>
+    <string name="signature_setting">签名设置</string>
+    <string name="system_setting">系统设置</string>
+    <string name="change_password">修改密码</string>
+    <string name="task_operator">参与人员    </string>
+    <string name="task_complete">任务完成    </string>
+    <string name="task_favroite">任务收藏    </string>
+    <string name="task_delay">任务延迟    </string>
+    <string name="task_cancel">任务取消    </string>
+    <string name="task_add_operator">添加执行人</string>
+    <string name="task_add_receiver">添加抄送人</string>
+    <string  name="approvalperson">参与人员</string>
+    <string name="my_sign">我的签到</string>
+    <string name="now_time">现在时间：</string>
+    <string name="immediately_sign">立刻签到</string>
+    <string name="now_time1">现在时间	</string>
+    <string name="my_location">我的定位：</string>
+    <string name="my_sign_record">我的签到记录</string>
+    <string name="item_share">分享笔记</string>
+    <string name="item_delete">删除笔记</string>
+    <string name="no_data">没有找到符合条件</string>
+    <string name="course">课程</string>
+    <string name="my_document">我的文件</string>
+    <string name="send">发送</string>
+    <string name="input_meeting_theme">请输入会议主题</string>
+    <string name="meeting_date">会议日期：</string>
+    <string name="meeting_time">会议时间：</string>
+    <string name="meeting_channel_number">选择会议频道号</string>
+    <string name="input_meeting_content">请输入会议简介</string>
+    <string name="send_to">抄送范围</string>
+    <string name="meeting">会议</string>
+    <string name="enter">进入</string>
+    <string name="in_meeting">正在开会</string>
+    <string name="attended_meeting">已参加会议</string>
+    <string name="input_meeting_channel_number">请输入频道号</string>
+    <string name="input_meeting_channel_number_enter">请输入频道号可直接进入频道</string>
+    <string name="on_live">正在直播</string>
+    <string name="search_by_classification">按分类查找</string>
+    <string name="general_approval">普通审批</string>
+    <string name="input_approval_content">请输入审批内容</string>
+    <string name="add_attachment">添加附件</string>
+    <string name="add_picture">添加图片</string>
+    <string name="note">笔记</string>
+    <string name="new_note">新建笔记</string>
+    <string name="learning_plan">学习计划</string>
+    <string name="reservation">可预订</string>
+    <string name="start_course">开课</string>
+    <string name="school_time">上课时间：</string>
+    <string name="my_course">我的课程</string>
+    <string name="plan">计划</string>
+    <string name="new_plan">新建计划</string>
+    <string name="edit_plan_list">编辑计划列表</string>
+    <string name="complete">完成</string>
+    <string name="my_message">我的消息</string>
+    <string name="launch_chat">发起聊天</string>
+    <string name="input_plan_content">请输入计划内容</string>
+
+    <!-- 创建任务 -->
+    <string name="task">任务</string>
+    <string name="task_title">任务标题</string>
+    <string name="start_time">开始时间:</string>
+    <string name="end_time">结束时间:</string>
+    <string name="task_content">会议内容</string>
+    <string name="invitation">邀请</string>
+    <string name="executor">执行人</string>
+    <string name="note_content">笔记内容</string>
+    <string name="announcement_notice">公告及通知</string>
+
+    <!-- 审批 -->
+    <string name="approver">审批人</string>
+    <string name="pending_approval">待审批</string>
+    <string name="have_passed">已通过</string>
+    <string name="not_pass">未通过</string>
+    <string name="expense_account">报销单</string>
+    <string name="leave_alone">请假单</string>
+    <string name="single_travel">差旅单</string>
+    <string name="borrowing_single">借款单</string>
+    <string name="description">详情</string>
+    <string name="create_time">创建时间：</string>
+    <string name="executor1">执行人：</string>
+    <!-- 我的任务 -->
+    <string name="my_task">我的任务</string>
+    <string name="new_task">发起任务</string>
+    <string name="processing">进行中</string>
+    <string name="completed">已停止</string>
+    <string name="stopped">已完成</string>
+    <string name="prepare_lessons">备课</string>
+    <string name="open_class">公开课</string>
+    <string name="explain">讲解</string>
+    <string name="save">保存</string>
+    <string name="input_content">输入内容</string>
+
+    <!-- 差旅单 -->
+    <string name="start_date">开始日期：</string>
+    <string name="end_date">结束日期：</string>
+    <string name="reason">事由：</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="noti_msg"></string>
+    <string name="friends_list"></string>
+    <string name="all_list">全部列表</string>
+
+    <!-- 直播 -->
+    <string name="full_screen">全屏</string>
+    <string name="discussion_or_question">讨论或提问</string>
+
+    <!-- 学习计划 -->
+    <string name="to_be_completed">待完成</string>
+    <string name="interim_plan">期中计划</string>
+    <string name="morning_reading_program">晨读计划</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="increasing_phase_plan">增加阶段计划</string>
+
+    <!-- 登录 -->
+    <string name="login">登录</string>
+    <string name="login_account_number_hint">请输入账号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <!-- 设置 -->
+    <string name="save_signature">保存签名</string>
+
+    <!-- 编辑计划列表 -->
+    <string name="plan_end_time">计划结束</string>
+    <string name="edit_plan">编辑计划</string>
+
+    <!-- 联系人 -->
+    <string name="search_address_book">搜索通讯录</string>
+    <!-- 聊天 -->
+    <string name="exit_group_chat">退出群聊</string>
+    <string name="add_group_member">添加成员</string>
+
+    <!-- 审批 -->
+    <string name="add_trip">＋  添加行程</string>
+    <string name="trip_person">出差人</string>
+    <string name="trip_note">出差事由</string>
+    <string name="trip_budget">预算(元)</string>
+    <string name="trip_advance_fee">预支(元)</string>
+    <string name="start_dest">出发地</string>
+    <string name="end_dest">目的地</string>
+    <string name="trip_start_time">出发时间</string>
+    <string name="trip_end_time">到达时间</string>
+    <string name="trip_way">交通工具</string>
+    <string name="trip_days">住宿(天)</string>
+    <string name="trip">行程一</string>
+    <string name="trip_delete">删除行程</string>
+    <string name="absent_person">请    假    人</string>
+    <string name="absent_reason">请假事项</string>
+    <string name="absent_starttime">开始时间</string>
+    <string name="absent_endtime">结束时间</string>
+    <string name="absent_duration">请假时长</string>
+    <string name="expense_name">报销项名称</string>
+    <string name="expense_money">金额</string>
+    <string name="expense_note">备注</string>
+
+    <!-- 更新 -->
+    <string name="upgrade_propmt">发现有新版本，是否立即更新？</string>
+    <string name="update">更新</string>
+    <string name="ignore">忽略</string>
+    <string name="download_new_app">下载新应用</string>
+    <string name="trip_choose_time">选择时间</string>
+    <string name="approve_content">请填写审批内容</string>
+
+    <!-- chat -->
+    <string name="status_available">在线</string>
+    <string name="status_away">离开</string>
+    <string name="status_chat">Q我吧</string>
+    <string name="status_dnd">请勿打扰</string>
+    <string name="status_xa">隐身</string>
+    <string name="status_offline">离线</string>
+    <string name="status_busy">忙碌</string>
+    <string name="status_online">在线</string>
+    <string name="run_bg_ticker">XMPP正在后台运行</string>
+    <string name="timeout_try_again">网络连接超时，请重试</string>
+    <string name="login_prompt">登录中</string>
+    <string name="default_group">我的好友</string>
+    <string name="aio_ime_action_label">完成</string>
+    <string name="options">Options</string>
+    <string name="quit">Quit</string>
+ 
+   
+  <string name="content_load_fail">加载失败</string>
+    <string name="reload">点击重新加载</string>
+    <string name="no_tasks">没有相关内容</string>
+    <string name="network_error_title">与服务器连接出问题了</string>
+    <string name="network_error_msg">可能原因：\n1. WiFi没连接 \n2. 路由器出问题连接不到外网\n3. 移动网络没连接上\n\n 请重新设置网络环境</string>
+     <string name="setting_network">设置网络</string>
+     
+     <!-- 工作汇报 -->
+     <string name="newreport_day">新建日报</string>
+     <string name="newreport_week">新建周报</string>
+     <string name="newreport_month">新建月报</string>
+     <!-- 公告 -->
+     <string name="add_receiver">增加接收人</string>
+     <string name="receiver_list">接收人列表</string>
+
+</resources>

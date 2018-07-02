@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">邮箱收发测试</string>
+
+    <string name="hello">测试</string>
+    <string name="welcome">收发邮件</string>
+    <string name="XXXXXXX">添加一个新的账号</string>
+    <string name="detail_set">设置</string>
+    <string name="send_email">发送邮件</string>
+    <string name="receivelist">收信箱</string>
+    <string name="mail_details">信件内容</string>
+    <string name="receive_Send">首页</string>
+    <string name="login_suggest">邮箱IMAP开启步骤</string>
+</resources>
